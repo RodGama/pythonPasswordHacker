@@ -1,0 +1,33 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    def fibonacci(n):
+        yield ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8277
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 3. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    5
+    Correct output:
+    [0, 1, 1, 2, 3]
+
+    Your code output:
+
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 11, in <module>
+        res = list(fibonacci(test_n))
+      File "jailed_code", line 2, in fibonacci
+        yield n+next(fibonacci)
+    TypeError: 'function' object is not an iterator
+  time: Tue, 14 Jul 2020 18:38:14 UTC
+record: -1

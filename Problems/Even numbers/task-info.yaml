@@ -1,0 +1,35 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    n = int(input())
+
+
+    def even():
+        yield ...
+
+
+    # Don't forget to print out the first n numbers one by one here
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8275
+status: Failed
+feedback:
+  message: |
+    Failed test #1 of 4. Wrong answer
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    2
+
+    Correct output:
+    0
+    2
+
+    Your code output:
+    0
+    1
+    Oops! even() must be a generator function!
+  time: Tue, 14 Jul 2020 19:23:20 UTC
+record: -1
